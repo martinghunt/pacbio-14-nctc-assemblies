@@ -4,7 +4,7 @@
 They are the 14 samples used in the [Circlator paper][circlator paper].
 
 Assemblies and files for analysis are all in this github repository.
-Raw sequences reads are in the ENA.
+Raw sequencing reads are in the ENA.
 
 The file `sample_data.tsv` lists accession IDs for the raw reads and the
 reference assembly of each sample, and some basic stats (assembly
