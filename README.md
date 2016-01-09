@@ -41,6 +41,6 @@ FASTA file of contigs is called `miniasm.fa`.
 [hgap github]: https://github.com/PacificBiosciences/Bioinformatics-Training/wiki/HGAP
 [hgap paper]: http://www.nature.com/nmeth/journal/v10/n6/abs/nmeth.2474.html
 [miniasm arxiv]: http://arxiv.org/abs/1512.01801
-[miniasm github]: http://www.genomebiology.com/2015/16/1/294
+[miniasm github]: https://github.com/lh3/miniasm
 [circlator paper]: http://www.genomebiology.com/2015/16/1/294
 [nctc home]: https://www.phe-culturecollections.org.uk/collections/nctc.aspx
