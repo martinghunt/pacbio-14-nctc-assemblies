@@ -27,7 +27,8 @@ Details TBC...
 
 ## miniasm assemblies
 
-Made with version 0.2 using the filtered subreads output during a run
+Made with version 0.2 (and [minimap][minimap github] version 0.2)
+using the filtered subreads output during a run
 of HGAP. The three commands run were:
 
     minimap -Sw5 -L100 -m0 -t4 $reads $reads | gzip -1 > miniasm.paf.gz
@@ -43,5 +44,6 @@ FASTA file of contigs is called `miniasm.fa`.
 [hgap paper]: http://www.nature.com/nmeth/journal/v10/n6/abs/nmeth.2474.html
 [miniasm arxiv]: http://arxiv.org/abs/1512.01801
 [miniasm github]: https://github.com/lh3/miniasm
+[minimap github]: https://github.com/lh3/minimap
 [circlator paper]: http://www.genomebiology.com/2015/16/1/294
 [nctc home]: https://www.phe-culturecollections.org.uk/collections/nctc.aspx
