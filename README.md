@@ -5,8 +5,9 @@ They are the 14 samples used in the [Circlator paper][circlator paper].
 
 Assemblies and files for analysis are all in this github repository.
 Raw sequencing reads are in the [ENA][ena homepage]. The filtered
-subreads FASTQ and corrected reads FASTSA files made when running HGAP are available
-[here][ftp reads].
+subreads FASTQ and corrected reads FASTA files made when running HGAP are available
+from
+[ftp://ngs.sanger.ac.uk/production/pathogens/mh12/pacbio-14-nctc-assemblies](ftp://ngs.sanger.ac.uk/production/pathogens/mh12/pacbio-14-nctc-assemblies).
 
 The file `sample_data.tsv` lists accession IDs for the raw reads and the
 reference assembly of each sample, and some basic stats (assembly
