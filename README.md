@@ -4,7 +4,9 @@
 They are the 14 samples used in the [Circlator paper][circlator paper].
 
 Assemblies and files for analysis are all in this github repository.
-Raw sequencing reads are in the [ENA][ena homepage].
+Raw sequencing reads are in the [ENA][ena homepage]. The filtered
+subreads FASTQ and corrected reads FASTSA files made when running HGAP are available
+[here][ftp reads].
 
 The file `sample_data.tsv` lists accession IDs for the raw reads and the
 reference assembly of each sample, and some basic stats (assembly
@@ -40,6 +42,7 @@ FASTA file of contigs is called `miniasm.fa`.
 
 
 [ena homepage]: http://www.ebi.ac.uk/ena
+[ftp reads]: ftp://ngs.sanger.ac.uk/production/pathogens/mh12/pacbio-14-nctc-assemblies/
 [hgap github]: https://github.com/PacificBiosciences/Bioinformatics-Training/wiki/HGAP
 [hgap paper]: http://www.nature.com/nmeth/journal/v10/n6/abs/nmeth.2474.html
 [miniasm arxiv]: http://arxiv.org/abs/1512.01801
