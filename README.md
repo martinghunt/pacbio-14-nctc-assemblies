@@ -18,15 +18,35 @@ relating to that sample.
 The FASTA files in each directory are:
 
 * `ref.fa` - the reference sequence
+* `canu.1.0.fa` - as assembly made with version 1.0 of [canu][canu github]
 * `miniasm.fa` - an assembly made with [miniasm][miniasm github]
   (preprint [here][miniasm arxiv]).
 * `hgap.fa` - an assembly made with [HGAP][hgap github]
   (publication [here][hgap paper]).
 
 
+## Canu assemblies
+
+Made with canu version 1.0. The filtered subreads were used as input with
+
+    -pacbio-raw filtered_subreads.fq
+
+and the genome size was set to the length of the reference genome for
+each sample, using
+
+    genomeSize=$length
+
+where `$length` was taken from the file `sample_data.tsv`.
+
+The only other options changed were cluster-specific:
+
+    maxThreads=8 maxMemory=16 useGrid=0
+
+
 ## HGAP assemblies
 
 Details TBC...
+
 
 ## miniasm assemblies
 
@@ -42,6 +62,7 @@ where `$reads` is the FASTQ file of reads, and the final output
 FASTA file of contigs is called `miniasm.fa`.
 
 
+[canu github]: https://github.com/marbl/canu
 [ena homepage]: http://www.ebi.ac.uk/ena
 [ftp reads]: ftp://ngs.sanger.ac.uk/production/pathogens/mh12/pacbio-14-nctc-assemblies/
 [hgap github]: https://github.com/PacificBiosciences/Bioinformatics-Training/wiki/HGAP
