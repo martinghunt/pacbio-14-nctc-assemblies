@@ -62,6 +62,16 @@ where `$reads` is the FASTQ file of reads, and the final output
 FASTA file of contigs is called `miniasm.fa`.
 
 
+## To do
+
+* Gather HGAP assembler version/options etc
+* Rename miniasm files with version number in them
+* Add PBcR assemblies
+* Add SPRAI assemblies
+* Run Quast on all assemblies/refs
+* Try quiver on miniasm assemblies
+
+
 [canu github]: https://github.com/marbl/canu
 [ena homepage]: http://www.ebi.ac.uk/ena
 [ftp reads]: ftp://ngs.sanger.ac.uk/production/pathogens/mh12/pacbio-14-nctc-assemblies/
