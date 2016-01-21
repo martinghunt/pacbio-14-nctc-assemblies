@@ -77,7 +77,6 @@ script was taken from the file `sample_data.tsv`.
 * Gather HGAP assembler version/options etc
 * Rename miniasm files with version number in them
 * Add PBcR assemblies
-* Add SPRAI assemblies
 * Run Quast on all assemblies/refs
 * Try quiver on miniasm assemblies
 
