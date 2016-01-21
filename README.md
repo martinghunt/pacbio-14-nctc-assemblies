@@ -23,6 +23,8 @@ The FASTA files in each directory are:
   (preprint [here][miniasm arxiv]).
 * `hgap.fa` - an assembly made with [HGAP][hgap github]
   (publication [here][hgap paper]).
+* `sprai.0.9.9.10.fa` - an assembly made with version 0.9.9.10 of
+  [Sprai][sprai home]
 
 
 ## Canu assemblies
@@ -62,6 +64,14 @@ where `$reads` is the FASTQ file of reads, and the final output
 FASTA file of contigs is called `miniasm.fa`.
 
 
+## Sprai assemblies
+
+Made with version 0.9.9.10 of Sprai using [this wrapper script][sprai wrapper script]
+with the options `--threads 8 --memory 16`. Sprai runs Celera. Version
+8.3rc2 of Celera was used. For each sample, the genome length given to the wrapper
+script was taken from the file `sample_data.tsv`.
+
+
 ## To do
 
 * Gather HGAP assembler version/options etc
@@ -82,3 +92,5 @@ FASTA file of contigs is called `miniasm.fa`.
 [minimap github]: https://github.com/lh3/minimap
 [circlator paper]: http://www.genomebiology.com/2015/16/1/294
 [nctc home]: https://www.phe-culturecollections.org.uk/collections/nctc.aspx
+[sprai home]: http://zombie.cb.k.u-tokyo.ac.jp/sprai/index.html
+[sprai wrapper script]: https://github.com/martinghunt/bioinf-scripts/blob/master/perl/sprai-wrapper.pl
