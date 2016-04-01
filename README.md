@@ -18,9 +18,10 @@ relating to that sample.
 The FASTA files in each directory are:
 
 * `ref.fa` - the reference sequence
-* `canu.1.0.fa` - as assembly made with version 1.0 of [canu][canu github]
-* `miniasm.fa` - an assembly made with [miniasm][miniasm github]
-  (preprint [here][miniasm arxiv]).
+* `canu.1.{0,1}.fa` - as assembly made with versions 1.0, 1.1 of [canu][canu github]
+* `miniasm.0.2.fa` - an assembly made with [miniasm][miniasm github]
+  (preprint [here][miniasm arxiv]), and `miniasm.0.2.quiver.fa` is
+  the result of running quiver.
 * `hgap.fa` - an assembly made with [HGAP][hgap github]
   (publication [here][hgap paper]).
 * `sprai.0.9.9.10.fa` - an assembly made with version 0.9.9.10 of
@@ -61,7 +62,10 @@ of HGAP. The three commands run were:
     awk '$1=="S" {print ">"$2"\n"$3} ' miniasm.gfa > miniasm.fa
 
 where `$reads` is the FASTQ file of reads, and the final output
-FASTA file of contigs is called `miniasm.fa`.
+FASTA file of contigs is called `miniasm.0.2.fa`.
+
+Each miniasm assembly has had quiver run on it. The FASTA file
+is called `miniasm.0.2.quiver.fa`.
 
 
 ## Sprai assemblies
