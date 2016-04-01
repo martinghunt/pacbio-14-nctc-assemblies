@@ -29,7 +29,7 @@ The FASTA files in each directory are:
 
 ## Canu assemblies
 
-Made with canu version 1.0. The filtered subreads were used as input with
+Made with canu version 1.0 and 1.1. The filtered subreads were used as input with
 
     -pacbio-raw filtered_subreads.fq
 
